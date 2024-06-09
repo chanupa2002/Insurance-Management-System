@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-image: url(../images/cushome8.jpeg);
+  background-size: cover;
+}
+header{
+    background-color: #9557B9;
+     display: flex;
+    justify-content: space-between; 
+
+    height: 120px;
+     align-items: center; 
+}
+h1{
+   
+    font-size: 35px;
+     color: white;  
+    /* margin-left: 70px; */
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 6px;
+  }
+  .icon{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+form{
+    width: 650px;
+    height: 340px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+    border: 1px solid black;
+    padding-left: 20px;
+    box-shadow: 5px 10px 8px 10px #888888;
+    border-radius: 5px;
+    margin-bottom: 90px;
+    background-color: #C8A2C8;
+}
+h3{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 9px;
+    margin-left: 140px;
+}
+.star {
+    font-size: 35px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  .star.selected {
+    color: gold;
+  }
+  textarea {
+    width: 400px;
+    height: 180px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+label{
+    font-weight: 650;
+    color: #5c5757;
+}
+input[type="submit"]{
+    float: right;
+    margin-right: 20px;
+    /* margin-top: 200px; */
+    width: 65px;
+    height: 30px;
+    cursor: pointer;
+    background-color: rgb(246, 206, 206);
+    border: 1px solid rgb(21, 19, 19);
+    font-weight: 600;
+
+}
+input[type="submit"]:hover{
+  background-color: rgb(241, 181, 181);
+}
+
+footer{
+  height: 150px;
+   background-color: #9557B9; 
+}
+.footer{
+  /* margin-top: 20px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+   padding-top: 10px; 
+}
+ul li{
+  display: block;
+  list-style-type: none;
+}
+h4{
+  margin-top: -33px;
+
+} 
+.contact{
+  margin-right: 25px;
+}
+.logopanel{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 7px;
+}
+#hotlineh{
+  font-size: 16px;
+  font-weight: bold;
+}
+.logopanel a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  margin-bottom: 3px;
+}
+.ficon{
+  font-size: 18px;
+}
+#formbg{
+  /* width: 220px;
+  height: 339px; */
+  width: 170px;
+  height: 180px;
+  opacity: 0.6;
+  float: right;
+  margin-top: 90px;
+  margin-right: 10px;
+
+}

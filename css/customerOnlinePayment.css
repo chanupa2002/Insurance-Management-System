@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d1cde1;
+    background-size: cover;
+    background-position: center;
+  }
+  .pay {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: rgb(247, 243, 252);
+    box-shadow: 0 0 50px rgb(197, 165, 221);
+  }
+  h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+  }
+  form {
+    
+    margin-top: 20px;
+
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  select {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .card-type {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px; /* Increased margin */
+  }
+  .card-type img {
+    width: 40px;
+    margin-right: 10px;
+  }
+  .card-type label {
+    margin-right: 30px; /* Increased margin */
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .btn-cancel {
+    background-color: #ccc;
+    color: #333;
+  }
+  .btn-pay {
+    background-color: #8800ff;
+    color: white;
+  }
+  #cvn {
+    width: 50px; /* Reduced width */
+  }
+  .icon{
+    float: left;
+    margin-left: 15px;
+    margin-top: -10px;
+    color: black;
+    font-size: 30px;
+}

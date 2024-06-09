@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+} 
+body{
+  background-image: url(../images/insmngrhome.jpeg); 
+ background-size: cover;
+}
+header{
+    background-color: #9557B9;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+  }
+  .icon{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+  
+  h1{
+      margin-left: 10px;
+      font-size: 30px;
+      color: white;
+    }
+    #logo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-left: 10px
+    }
+
+table {
+  margin-top: 30px;
+    border-collapse: collapse;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid rgb(161, 158, 158);
+    border-radius: 3px;
+    margin-bottom: 120px;
+  }
+  
+  td {
+    text-align: center;
+    padding: 8px;
+    border: 2px solid rgb(161, 158, 158);
+  }
+  
+  tr:nth-child(even)
+   {background-color: #f2f2f29c;
+}
+/* tr:nth-child(odd)
+{background-color: white;
+} */
+td{
+    height: 60px;
+    text-align: center;
+    font-weight: 500;
+}
+th{
+    background-color: rgb(194, 154, 194);
+    border:  2px solid rgb(161, 158, 158); 
+    text-align: center;
+}
+#searchBox{
+  width: 210px;
+  height: 30px;
+  background-color:#f2f1f2;
+   border-radius: 6px; 
+   margin-top: 30px;
+   margin-left: 150px;
+ padding-left: 6px;
+  border: 1px solid black;
+  }
+  h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: rgb(122, 108, 108);
+  }
+.idcell{
+  width: 85px;
+}
+#cusnamecell{
+  width: 250px;
+}
+#lastcell{
+  border-right:  2px solid rgb(161, 158, 158); 
+  width: 75px;
+}
+#firstcell{
+  border-left:  2px solid rgb(161, 158, 158); 
+  width:75px;
+}
+.delete{
+  background-color: rgb(232, 225, 225);
+  color: black;
+  font-weight: 550;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 65px;
+
+
+}
+.delete:hover{
+  background-color:rgb(251, 240, 240) ;
+  box-shadow: 1px 1px 1px 1px #888888;
+}

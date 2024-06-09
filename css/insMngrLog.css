@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}  
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color:aliceblue;
+}
+
+div.login{
+   
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(80, 78, 78, 0);
+    padding: 20px;
+    box-shadow: 0 0 50px darkslateblue;
+    border-radius: 3px;
+    width: 670px;
+	height:350px
+}
+div.login div.myform{
+    width: 600px;
+ 
+}
+
+div.login div.myform h2{
+    color: black;
+    margin-bottom: 20px;
+}
+
+div.login div.myform input{
+    border: none;
+    outline: none;
+    border-radius: 0;
+    width: 95%;
+    border-bottom: 2px solid #1c1c1e;
+    margin-bottom: 25px;
+    padding: 7px 0;
+    font-size: 14px;
+    background-color: rgba(80, 78, 78, 0);
+}
+div.login div.myform button
+{
+    color: rgb(255, 255, 255);
+    background-color: #512253;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    font-size: 14px;
+    padding: 5px 12px;
+    font-weight: 500;
+    width: 310px;
+}
+
+div.login div.myform button:hover {
+    background-color: #4b1c60;
+    cursor: pointer;
+}
+
+.info{
+    margin-top: 20px;
+    color: green;
+    font-weight: 550;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.error{
+    color: red;
+    font-size: 12px;
+    font-weight: 550;
+    margin-bottom: 10px;
+}
+#backtohometxt{
+    text-decoration: none;
+    color: rgb(5, 214, 5);
+    font-weight: 600;
+} 
+
+
+
+

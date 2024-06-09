@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-image: url(../images/insmngrhome.jpeg); 
+ background-size: cover;
+}
+header{
+    background-color: #9557B9;
+    display: flex;
+    justify-content: space-between;
+    height: 120px;
+    align-items: center;
+  }
+  h1{
+    margin-left: 10px;
+    font-size: 30px;
+    color: white;
+  }
+  #logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px
+  }
+  .icon{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+  table, th, td ,tr{
+    border: 1px solid;
+    padding: 8px;
+    
+  }
+  table {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 120px;
+   
+  }
+  table th{
+    background-color: rgb(194, 154, 194);
+    color: white;
+    border: 1px solid black;
+    
+  }
+   table {
+    border-collapse: collapse;
+  } 
+  table tr:nth-child(even) {
+    background-color: #deb1f8;
+  }
+  table tr:nth-child(odd){
+    background-color: rgba(183, 174, 174, 0.227);
+  }
+  table td{
+    text-align: center;
+    font-weight: 550;
+  }
+  #printbtn{
+    /* position: relative; */
+    float: right;
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+   margin-top: -40px;
+   font-weight: 550;
+   border-radius: 4px;
+   background-color: rgb(238, 233, 233);
+  }
+  #printbtn:hover{
+    box-shadow: 2px 2px 1px 1px rgb(188, 186, 186);
+  }
+  h2{
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    color: rgb(122, 108, 108);
+  }

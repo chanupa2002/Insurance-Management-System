@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+} 
+/* body{
+    background-image: url(../images/purple5.jpeg); 
+   background-size: cover;
+  } */
+  body{
+    background-image: url(../images/cushome8.jpeg);
+    background-size: cover;
+  }
+header{
+    background-color: #9557B9;
+     display: flex;
+    justify-content: space-between; 
+
+    height: 120px;
+     align-items: center; 
+}
+h1{
+   
+    font-size: 35px;
+     color: white;  
+    margin-left: 70px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 6px;
+  }
+  .icon{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }  
+table, th, td {
+    border: 1px solid;
+    padding: 8px;
+      
+  
+}
+table {
+    width: 40%;
+    margin-left: 500px;
+    margin-top: 80px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 14px;
+    }
+    /* table tr:nth-child(even) {
+        background-color: #e7c8f9;
+    } */
+    table tr:nth-child(odd){
+       /* background-color: #FCEFF4; */
+       /* background-color: #FAF7F8; */
+       background-color: #F3E1E7;
+    }
+
+
+table tr:nth-child(even) {
+    background-color: #e7c8f9;
+  }
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#9557B9;
+    color: white;
+    text-align: center;
+    border-top: black;
+} 
+th{
+    width: 50%;
+    text-align: center;
+}
+td{
+    font-weight: 490;
+}
+ #firstcell{
+    border-left: black;
+}
+#lastcell{
+    border-right: black;
+} 
+#paybtn{
+     width: 150px;
+    height: 60px; 
+  margin-top: -80px;
+     text-align: center; 
+    float: right;
+    margin-right: 100px;
+   
+    
+}
+.payicon{
+    font-size: 30px;
+    text-align: center;
+   
+    
+} 
+a{
+    text-decoration: none;
+    color: black;
+}
+#paybtn:hover #pay{
+animation: shake 0.7s cubic-bezier(.36,.36,.36,.36) both;
+  
+}
+@keyframes shake {
+    0% { margin-left: 2px; }
+    15% { margin-left: 5px; }
+    30% { margin-left: 8px; }
+    45% { margin-left: 11px; }
+    60% { margin-left: 14px; }
+    75% { margin-left: -10px; }
+    85% { margin-left: -6px; }
+    92% { margin-left: -2px; }
+    100% { margin-left: 0; }
+  }
+  footer{
+    height: 150px;
+     background-color: #9557B9; 
+}
+.footer{
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding-top: 10px; 
+}
+ul li{
+    display: block;
+    list-style-type: none;
+}
+ h4{
+    margin-top: -33px;
+
+} 
+.contact{
+    margin-right: 25px;
+}
+.logopanel{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7px;
+}
+#hotlineh{
+    font-size: 16px;
+    font-weight: bold;
+}
+li{
+    margin-bottom: 3px;
+}
+.ficon{
+    font-size: 18px;
+}

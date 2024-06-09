@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior:smooth;
+} 
+body{
+  background-image: url(../images/cushome8.jpeg);
+  background-size: cover;
+}
+header{
+    background-color: #9557B9;
+     display: flex;
+    justify-content: space-between; 
+
+    height: 120px;
+     align-items: center; 
+}
+h1{
+   
+    font-size: 35px;
+     color: white;  
+    margin-left: 70px;
+}
+#logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 6px;
+  }
+  .icon{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+  }
+.container{
+    margin-left: 470px;
+    margin-right: auto;
+    margin-top: 160px;
+    border: 1px solid black;
+    width: 670px;
+    text-align: center;
+    border-radius: 5px;
+    height: 250px;
+    padding-top: 30px;
+    font-weight: 540;
+    background-color: rgb(252, 248, 248);
+    box-shadow: 10px 10px 8px #888888;
+    display: flex;
+}
+.icon1{
+  float: right;
+  margin-right: 15px;
+ margin-top: 190px;
+color: black;
+font-size: 20px;
+}
+.icon1:hover{
+  color: green;
+}
+#thankyoutxt{
+  color: green;
+  font-weight: 850;
+
+}
+#feedbackbg{
+  width: 180px;
+  height: 180px;
+  margin-left: 10px;
+}
+.container p{
+  margin-left: 20px;
+  margin-top: 60px;
+
+}
